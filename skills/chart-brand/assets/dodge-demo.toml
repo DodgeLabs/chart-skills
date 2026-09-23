@@ -1,0 +1,26 @@
+schema = 1
+name = "Dodge Labs"
+status = "confirmed"
+source = "dodgelabs.com CSS custom properties"
+note = "categorical[0] (#14133D navy) and categorical[1] (#2D8A56 green) are site tokens (--color-navy, --color-green). Later categorical colors are chart extensions, not site colors. #EE4E47 (--color-red) is accent and negative, not a series. #FFFB9F (--color-highlight) is mark only. Background #F7F5F3 and ink #1F1F1F are --color-bg and --color-text."
+
+categorical = [
+  "#14133D",
+  "#2D8A56",
+  "#2F6F9F",
+  "#C56A2D",
+  "#9A4E78",
+]
+
+[roles]
+primary = "#14133D"
+accent = "#EE4E47"
+ink = "#1F1F1F"
+background = "#F7F5F3"
+positive = "#2D8A56"
+negative = "#EE4E47"
+mark = "#FFFB9F"
+
+[type]
+sans = "Roboto"
+size = 11

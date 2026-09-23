@@ -1,0 +1,53 @@
+# chart-brand theme: Dodge Labs
+# Load this AFTER any seaborn set_theme call. set_theme replaces the color cycle.
+# source: dodgelabs.com CSS custom properties
+
+font.family: sans-serif
+font.sans-serif: Roboto, DejaVu Sans, Arial, Helvetica, sans-serif
+font.size: 11
+
+figure.facecolor: "#F7F5F3"
+figure.edgecolor: "#F7F5F3"
+figure.dpi: 144
+figure.figsize: 7.6, 4.4
+savefig.facecolor: "#F7F5F3"
+savefig.edgecolor: "#F7F5F3"
+savefig.dpi: 144
+savefig.bbox: tight
+pdf.fonttype: 42
+ps.fonttype: 42
+
+text.color: "#1F1F1F"
+axes.facecolor: "#F7F5F3"
+axes.edgecolor: "#1F1F1F"
+axes.labelcolor: "#1F1F1F"
+axes.titlecolor: "#1F1F1F"
+axes.titlesize: 14
+axes.titlelocation: left
+axes.titlepad: 12
+axes.linewidth: 0.8
+axes.axisbelow: True
+axes.grid: True
+axes.grid.axis: y
+axes.spines.top: False
+axes.spines.right: False
+axes.unicode_minus: False
+axes.prop_cycle: cycler('color', ["#14133D", "#2D8A56", "#2F6F9F", "#C56A2D", "#9A4E78"])
+
+grid.color: "#E3E1DF"
+grid.linewidth: 0.6
+grid.alpha: 1
+
+xtick.color: "#1F1F1F"
+ytick.color: "#1F1F1F"
+xtick.labelsize: 10
+ytick.labelsize: 10
+
+legend.frameon: False
+legend.fontsize: 10
+
+lines.linewidth: 2.2
+lines.solid_capstyle: round
+lines.markersize: 6
+
+patch.linewidth: 0.0
